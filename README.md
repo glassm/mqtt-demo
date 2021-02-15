@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+This is an example MQTT client which makes websocket calls to an emqx mqtt broker running 
+on 200.200.0.164. 
+
+sudo docker container start emqx -i -a
+https://hub.docker.com/r/emqx/emqx
